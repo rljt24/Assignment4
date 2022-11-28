@@ -1,0 +1,73 @@
+#main-header {
+    background-color: darkturquoise;
+    margin: 0 10% 0 10%;
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+.first-paragraph {
+    /* initial-letter: 2; */
+    color:dodgerblue;
+    font-size:large;
+}
+
+.first-paragraph::first-letter{
+    float: left;
+    margin-top: -10;
+    margin-right: 3;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: orange;
+    font-size: 2em;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.second-paragraph {
+    color:dodgerblue;
+    font-size: large
+}
+
+body {
+    background-color: lightgray;
+    margin: 8px;
+    display: block;
+}
+
+#fun-paragraph{
+    color: green;
+    font-size: large;
+}
+
+#images {
+    float: right;
+    height: 150;
+    width: 150;
+    margin-bottom: 10;
+    margin-left: 3;
+}
+
+#image1 {
+    position: relative;
+    left: 20%;
+    height: 200;
+    width: 320;
+}
+
+#image2 {
+    float: right;
+    position: relative;
+    right: 20%;
+    height: 200;
+    width: 320;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid orange;
+}
